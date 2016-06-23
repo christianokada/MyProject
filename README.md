@@ -1,3 +1,6 @@
 # youSpam
 
-commenting bot
+commenting bot for youTube...
+
+start webdriver-manager
+run protractor.conf.js
