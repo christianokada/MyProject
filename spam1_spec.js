@@ -91,22 +91,4 @@ describe('youtube spam test', function() {
 
 	spam();
 
-	// it("should spam with comments", function() {
-	// 	driver.sleep(500).then(function() {
-	// 		return driver.findElement(by.css('div[class="comment-simplebox-renderer-collapsed-content"]')).click();
-	// 	}).then(function() {
-	// 		return driver.findElement(by.css('div[class="comment-simplebox-text"]')).sendKeys("hello world");
-	// 	}).then(function() {
-	// 		return driver.sleep(1000);
-	// 	}).then(function() {
-	// 		return driver.findElement(by.css('div[class="comment-simplebox-buttons"]'));
-	// 	}).then(function(data) {
-	// 		return data.findElements(by.css('button'));
-	// 	}).then(function(data) {
-	// 		return data[1].click();
-	// 	}).then(function() {
-	// 		driver.sleep(3000);
-	// 	});
-	// });
-
 });
